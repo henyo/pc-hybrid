@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>LOGIN</title>
+<link rel="stylesheet" href="css/slicy.css">
+<link rel="stylesheet" href="css/style.css">
+
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]--> 
+</head>
+
+<body class="page-login">
+	<div class="wrapper">
+	 <div class="head">
+ 	<img src="imgs/ico1.png"/>
+	 </div>	 
+	 <div class="body">
+	 	<div class="img">
+	 		<img src="imgs/img1.png"/>
+	 	</div>
+	 	<div class="form">
+	 		<form >
+	 			<ul>
+	 				<li>
+	 				<div class="txt">
+	 					<i class="ico"><img src="imgs/ico2.png"/></i>
+	 					<input type="text" name="" id="" value="" placeholder="请输入账号"/>
+	 				</div>
+	 			</li>
+	 			<li>
+	 				<div class="txt">
+	 					<i class="ico"><img src="imgs/ico3.png"/></i>
+	 					<input type="text" name="" id="" value="" 
+	 						onfocus="if(this.value == '请输入密码'){this.value = ''}"
+	 						onblur="if(this.value == ''){this.value = '请输入密码'}"/>
+	 				</div>
+	 			</li>
+	 			<li class="pwd">
+	 				<input type="checkbox" name="" id="pwd" value="" />
+	 				<label for="pwd"></label>
+	 				<span>记住密码</span> <!--for用于加关联,用label来做美化-->
+	 			</li>
+	 			<li>
+	 				<div class="btn" >
+	 				<input type="submit" class="submit" name="" id="" value="立即登录" 
+	 				/>
+	 				
+	 				</div>
+	 			</li>
+	 		</ul>	
+	 			
+	 		</form>	
+	 	</div>
+	 </div>
+	<div class="foot">
+		工业和信息化部备案号：赣ICP备12005963号-1 版权所有:copyright:2005-2013 yc9y.com All Rights Reserved 
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.pwd input[type=checkbox]').change(function(){
+			if($(this).is(':checked')){
+				$('label').addClass('selected');
+			}
+			else{
+				$('label').removeClass('selected');
+			}
+		})
+	})
+
+</script>
+</body>
+</html>
+
+	

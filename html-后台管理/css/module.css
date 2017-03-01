@@ -1,0 +1,87 @@
+
+
+
+/*标题*/
+.ui-title{
+	height: 40px;border-bottom: #e7e7e7 1px solid;line-height: 38px;
+	padding-left: 25px;
+}
+.ui-title span{
+	font-size: 20px;color: #0e83b9;border-bottom: #2094ca 3px solid;
+	display: inline-block;
+}
+/*按钮组*/
+.ui-btn-group{
+	
+}
+.ui-btn-group .ui-btn{
+	display:inline-block; width: 108px;height: 33px;background: #2094ca;
+	border-radius: 2px;text-align: center;font-size: 13px;text-decoration: none;
+	line-height: 33px;border-radius: 2px;color: #FFFFFF;
+	border: none; 
+}
+.ui-btn-group li{
+	display: inline;
+}
+
+.ui-btn-red{
+	background-color: #ff6666 !important;
+}
+
+/*表格模块*/
+.ui-table{
+	border: #dae1e5 solid 1px;
+}
+.ui-table th{
+	background-color: #f0f4f8;border-bottom: 1px solid #dae1e5;
+	height: 40px;line-height: 40px;text-align: center;
+}
+.ui-table td{
+	padding: 10px 10px;
+}
+.ui-table-zebra tr:nth-child(odd) td{
+	background: #f2f7fa;
+}
+.ui-table .ui-btn{
+	width: 82px;height: 26px; border: #a0b8c3 1px solid;
+	color: #3880a1;background: url(../imgs/ico18.png) repeat-x;line-height: inherit;
+}
+
+
+
+.ui-pages{
+	margin-top: 15px;text-align: center;
+}
+.ui-pages ul{
+	display: inline;
+}
+.ui-pages li{
+	display: inline;
+}
+.ui-pages li a,
+.ui-pages li span{
+	border: #c3d5de solid 1px;height: 20px;line-height: 20px;
+	display: inline-block;padding: 0 8px;color: #829299;
+	font-size: 12px;
+}
+
+.ui-pages p{
+	display: inline;margin-right: 10px;
+}
+.ui-pages strong{
+	color: #0E83B9; margin: 0 3px;
+	n     
+}
+
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/*fix*/
+.mgl20{
+	position: absolute;left: 475px;top: 0;
+}
+
